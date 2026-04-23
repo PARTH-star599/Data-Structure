@@ -34,7 +34,7 @@ int main() {
     scanf("%d", &choice);
 
     switch(choice) {
-        case 1: // Addition
+        case 1: 
             if(r1 == r2 && c1 == c2) {
                 for(int i = 0; i < r1; i++) {
                     for(int j = 0; j < c1; j++) {
@@ -53,7 +53,7 @@ int main() {
             }
             break;
 
-        case 2: // Subtraction
+        case 2: 
             if(r1 == r2 && c1 == c2) {
                 for(int i = 0; i < r1; i++) {
                     for(int j = 0; j < c1; j++) {
@@ -72,7 +72,7 @@ int main() {
             }
             break;
 
-        case 3: // Multiplication
+        case 3: 
             if(c1 == r2) {
                 for(int i = 0; i < r1; i++) {
                     for(int j = 0; j < c2; j++) {
