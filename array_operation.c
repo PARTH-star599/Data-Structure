@@ -2,7 +2,6 @@
 
 #define MAX 100
 
-// Traverse
 void traverse(int arr[], int n) {
     if(n == 0) {
         printf("Array is empty.\n");
@@ -15,7 +14,6 @@ void traverse(int arr[], int n) {
     printf("\n");
 }
 
-// Insert
 int insert(int arr[], int n, int element, int pos) {
     if(n >= MAX) {
         printf("Array is full.\n");
@@ -35,7 +33,6 @@ int insert(int arr[], int n, int element, int pos) {
     return n + 1;
 }
 
-// Delete
 int delete(int arr[], int n, int pos) {
     if(n == 0) {
         printf("Array is empty.\n");
@@ -54,7 +51,6 @@ int delete(int arr[], int n, int pos) {
     return n - 1;
 }
 
-// Search
 void search(int arr[], int n, int key) {
     for(int i = 0; i < n; i++) {
         if(arr[i] == key) {
@@ -65,7 +61,6 @@ void search(int arr[], int n, int key) {
     printf("Element not found.\n");
 }
 
-// Update
 void update(int arr[], int n, int pos, int value) {
     if(pos < 0 || pos >= n) {
         printf("Invalid position.\n");
